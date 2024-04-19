@@ -13,11 +13,11 @@ int main(void){
     int numeroAnos, cigarrosDia;
     float precoCigarro;
 
-    printf("Quantidade de anos que fuma: ");
+    printf("Quantidade de anos que fumas: ");
     scanf("%d", &numeroAnos);
     printf("Cigarros por dia: ");
     scanf("%d", &cigarrosDia);
-    printf("Preço médio do cigarro em reais: ");
+    printf("PreÃ§o mÃ©dio do cigarro em reais: ");
     scanf("%f", &precoCigarro);
 
     int totalCigarros = cigarrosAoLongoVida(cigarrosDia, numeroAnos);
