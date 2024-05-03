@@ -14,6 +14,7 @@
 int main(void) {
 	int numeros[5];
 	int soma = 0;
+	int contador = 0;
 
 
 	printf("Digite 5 numeros inteiros: \n");
@@ -21,11 +22,12 @@ int main(void) {
 	for(int i = 0; i < 5; i++){
 		printf("Numero %d:",i + 1);
 		scanf("%d",&numeros[i]);
+		contador++;
 		soma = soma + numeros[i];
 
 	}
 
-	double media = (double) soma/5;
+	double media = (double) soma/contador;
 
 	printf("Soma: %d\n",soma);
 	printf("Media: %.2lf\n",media);
