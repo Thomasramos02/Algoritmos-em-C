@@ -22,7 +22,7 @@ int main(void) {
 		}
 	}
 
-	printf("%d",soma)
+	printf("%d",soma);
 
 	return 0;
 }
